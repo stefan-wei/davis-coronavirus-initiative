@@ -524,17 +524,15 @@ a:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 400px;
-  padding-right: 400px;
   padding-top: 120px;
   padding-bottom: 120px;
   font-family: 'Open Sans', sans-serif;
   background-color: #F7F7F7;
+  border: 1px solid red;
 }
 
 .team img{
-  max-width: 500px;
-  width: 100%;
+  width: 500px;
   height: auto;
 }
 
@@ -543,9 +541,10 @@ a:active {
   flex-direction: column;
   width: 400px;
   margin-right: 40px;
-  height: auto;
-  width: 100%;
-  max-width: 400px;
+  height: 300px;
+  width: 500px;
+  border: 1px solid blue;
+  font-size: 1vw;
 }
 
 .us{
