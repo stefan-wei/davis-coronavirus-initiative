@@ -528,7 +528,6 @@ a:active {
   padding-bottom: 120px;
   font-family: 'Open Sans', sans-serif;
   background-color: #F7F7F7;
-  border: 1px solid red;
 }
 
 .team img{
@@ -543,7 +542,6 @@ a:active {
   margin-right: 40px;
   height: 300px;
   width: 500px;
-  border: 1px solid blue;
   font-size: 1vw;
 }
 
