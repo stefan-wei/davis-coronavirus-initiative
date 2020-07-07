@@ -73,7 +73,7 @@ a:active {
 }
 .home img{
   width: 100%;
-  filter: brightness(30%);
+  filter: brightness(35%);
 }
 
 .home{
@@ -88,10 +88,11 @@ a:active {
         left: 0;
         color: #FFFFFF;
         right: 0;
-        top: 40%; /* Adjust this value to move the positioned div up and down */
+        top: 35%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
         width: 60%; /* Set the width of the positioned div */
-        font-size: 2vw;
+        font-size: 1.5vw;
+        width: 900px;
     }
 
 .disc{
@@ -198,6 +199,7 @@ a:active {
 }
 .process img{
   height: 250px;
+  margin:100px;
 }
 
 .process_description{
@@ -216,7 +218,7 @@ a:active {
   font-size: 2vw;
   color: #2F80ED;
   font-family: 'Open Sans', sans-serif;
-  margin: 30px;
+  margin: 50px;
 }
 
 .general_process{
@@ -251,8 +253,8 @@ a:active {
   font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
   padding:20px;
-  height: 75px;
-  font-size: 1em;
+  height: 65px;
+  font-size: .9em;
   width: 100%;
 }
 
@@ -273,7 +275,7 @@ a:active {
 .contact{
   display: flex;
   flex-direction: column;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .footer_questions{
@@ -399,6 +401,8 @@ a:active {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   width: 1000px;
+  font-size: .75em;
+  font-weight: 600;
 }
 
 .video{
@@ -478,6 +482,7 @@ a:active {
   align-items: center;
   color: white;
   background-color: #037ED7;
+  font-size: .75em;
 }
 
 .yolo{
@@ -488,6 +493,7 @@ a:active {
   align-items: center;
   color: white;
   background-color: #D01717;
+  font-size: .75em;
 }
 
 
