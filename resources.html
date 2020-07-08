@@ -11,13 +11,23 @@
     <body id="resource-page">
   </head>
   <body>
-    <!-- THIS IS THE HEADER -->
+
     <div class='header'>
       <div class='logo'>
         <a href='index.html'><img src='dci.png' height='100px'/></a>
       </div>
 
-      <div class='tabs'>
+      <div id='dropdown' class='dropdownmenu'>
+        <li style="list-style: none;" class='dropdown'><span><a href='#'><i class="fa fa-bars" style="font-size:36px;color:black"></i></a></span>
+          <ul class='features-menu'>
+            <li><a href='about.html'>About</a></li>
+            <li><a href='resources.html'>Resources</a></li>
+            <li><a href='blog.html'>Blog</a></li>
+          </ul>
+        </li>
+      </div>
+
+      <div id='tabs' class='tabs'>
         <div class='tab_element' >
           <a href='index.html'>Home</a>
         </div>
@@ -31,6 +41,7 @@
           <a href='blog.html'>Blog</a>
         </div>
       </div>
+
     </div>
 
     <!--- HEADER SPACER -->
@@ -39,14 +50,14 @@
     <div class='facts'>
       <div class='morefacts'>
         <div class='mf_title'>
-          <h1>More Facts About <br> Coronavirus</h1>
+          <h1>More Facts About <div id='linebreak' class='linebreak'></div>Coronavirus</h1>
         </div>
         <div class='mf_descript'>
           <p>Stay informed to do your part in flattening the curve!</p>
         </div>
-        <div class='mf_buttons'>
-          <div class='mfb1'>Protect Yourself  &#8614;</div>
-          <div class='mfb1'>Learn About Viral Infections &#8615;</div>
+        <div id='resourcebuttons' class='mf_buttons'>
+          <div class='mfb1'>Protect Yourself  <div id='arrows' class='arrows'>&#8614;</div></div>
+          <div class='mfb1'>Learn About Viral Infections <div id='arrows' class='arrows'>&#8615;</div></div>
         </div>
       </div>
       <div class='infobox'>
@@ -68,9 +79,8 @@
       <iframe width="1000" height="561" src="https://www.youtube.com/embed/BtN-goy9VOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class='graph_title'>
+    <div id='graphspacer'class='graph_title'>
     </div>
-
 
     <div class='maphere'>
       <div class='california'>
@@ -88,36 +98,48 @@
 
 
 
-  <!--- FOOTER SPACER -->
     <div class='footer_spacer'></div>
 
-<!-- THIS IS THE FOOTER -->
-<div class='footer'>
-  <div class='credits'>
-    <div class='desby'>This website was designed by:</div>
-    <a href='https://www.instagram.com/yongqi.design/'><div class='designer'>
-      <p>Yongqi Kuang</p>
-      <div class='ig'><i class="fa fa-instagram" style="font-size:24px; color:white"></i></div>
-    </div></a>
-  </div>
-  <div class='contact'>
-    <div class='footer_questions'>HAVE QUESTIONS?</div>
-    <div class='questions_contact'><a href="mailto:daviscvinitiative@gmail.com">&#9993; daviscvinitiative@gmail.com</a></div>
-    <div class='questions_contact'>&#9742; (530) 220-3722</div>
-  </div>
-  <div class='socials'>
-    <div class='footer_follow'>FOLLOW US</div>
-    <div class'follow_socials'>
-      <div class='box'>
-        <a href='https://www.instagram.com/daviscoronavirusinitiative/'><i class="fa fa-instagram" style="font-size:36px; color:white"></i></a>
-        <i class="fa fa-facebook-square" style="font-size:36px; color:white"></i>
+    <div class='footer'>
+
+      <div id='desktopcredits'class='credits'>
+        <div class='desby'>This website was designed by:</div>
+          <a href='https://www.instagram.com/yongqi.design/'><div class='designer'>
+          <div class='yk'><p>Yongqi Kuang</p></div>
+          <div class='ig'><i class="fa fa-instagram" style="color:white"></i></div>
+        </div></a>
+      </div>
+
+      <div class='contact'>
+        <div class='footer_questions'>HAVE QUESTIONS?</div>
+        <div class='questions_contact'><a href="mailto:daviscvinitiative@gmail.com">&#9993; daviscvinitiative@gmail.com</a></div>
+        <div class='questions_contact'>&#9742; (530) 220-3722</div>
+      </div>
+
+      <div class='socials'>
+        <div class='footer_follow'>FOLLOW US:</div>
+        <div class='box'>
+          <div class='social_icon'>
+          <a href='https://www.instagram.com/daviscoronavirusinitiative/'><i class="fa fa-instagram" style="color:white"></i></a>
+          </div>
+          <div class='social_icon'>
+            <i class="fa fa-facebook-square" style="color:white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id='mobilecredits'class='credits'>
+        <div class='desby'>This website was designed by:</div>
+          <a href='https://www.instagram.com/yongqi.design/'><div class='designer'>
+          <div class='yk'><p>Yongqi Kuang</p></div>
+          <div class='ig'><i class="fa fa-instagram" style="color:white"></i></div>
+        </div></a>
+      </div>
+
+      <div class='legal'>
+        <p>Davis Coronavirus Initiative</p>
+        <p>Copyright @ 2020</p>
+        <p>All Rights Reserved</p>
       </div>
     </div>
-  </div>
-  <div class='legal'>
-    <p>Davis Coronavirus Initiative</p>
-    <p>Copyright @ 2020</p>
-    <p>All Rights Reserved</p>
-  </div>
-</div>
   </body>
