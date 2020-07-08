@@ -1447,7 +1447,6 @@ ol {
     .facts{
       display: flex;
       flex-direction: column;
-      border: 1px solid red;
       align-items: center;
       font-family: 'Open Sans', sans-serif;
       width: 100%;
@@ -1459,14 +1458,12 @@ ol {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 1px solid blue;
       width:100%;
       margin-bottom:60px;
     }
     .mf_title{
       display: flex;
       justify-content: center;
-      border: 1px solid blue;
       width:100%;
       margin-bottom: 10px;
       font-size: 1.5em;
@@ -1585,6 +1582,83 @@ ol {
       color: white;
       background-color: #D01717;
       font-size: 1em;
+    }
+
+    #blog-page {background-color:#EBF8FF;}
+    #blog-page {align-items: center;}
+
+    .blog_header{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 125px;
+      margin-bottom: 30px;
+      font-family: 'Arvo', sans-serif;
+      font-size: 2.5em;
+    }
+
+    .blog_about{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.8em;
+    }
+
+    .blog_cont{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left:350px;
+      padding-right:350px;
+      margin-bottom: 90px;
+    }
+
+    .blog{
+      display: flex;
+      flex-direction: column;
+      font-family: 'Open Sans', sans-serif;
+      width: 750px;
+      margin-bottom: 90px;
+    }
+
+    .blog img{
+      height: auto;
+      width: 100%;
+    }
+
+    .blog_title{
+      display: flex;
+      flex-direction: column;
+      width: inherit;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: white;
+      padding: 5px;
+      padding-bottom:0px;
+      width: 100%;
+      font-size: 2em;
+    }
+
+    .blog_title h5{
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+    .blog_descript{
+      display: flex;
+      width: inherit;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: white;
+      padding: 5px;
+      padding-top:0px;
+      width: 100%;
+      font-size: 1.4em;
     }
 
 }
