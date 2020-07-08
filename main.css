@@ -874,7 +874,7 @@ ol {
       justify-content: space-between;
       align-items: center;
       width: 100%;
-      height: 100px;
+      height: 200px;
       background-color: #FFFFFF;
       padding-right:64px;
       padding-left: 48px;
@@ -883,8 +883,8 @@ ol {
     }
 
     .header{
-      padding-left: 7%;
-      padding-right: 5%;
+      padding-left: 5%;
+      padding-right: 10%;
       font-family: "Roboto", sans-serif;
       font-weight: bold;
       position: fixed;
@@ -894,7 +894,7 @@ ol {
       justify-content: space-between;
       align-items: center;
       width: 100%;
-      height: 75px;
+      height: 150px;
       background: #FFFFFF;
     }
 
@@ -905,10 +905,6 @@ ol {
       margin-bottom: 75px;
     }
 
-    .name{
-      font-size: 28px;
-      color: #FFFFFF;
-    }
     .menu{
       margin-top: 15px;
     }
@@ -932,13 +928,16 @@ ol {
       top: -25px;
       left: -30px;
       z-index: 1;
+      width: 500px;
+      padding-top: 90px;
     }
 
     .features-menu li{
       list-style: none;
       border-bottom: 1px solid #000000;
       padding: 0 40px 10px 20px;
-      margin: 10px;
+      margin: 20px;
+      font-size: 1.5em;
     }
 
     .features-menu li: last-of-type{
@@ -961,7 +960,7 @@ ol {
     }
 
     .logo img{
-      height: 64px;
+      height: 96px;
     }
     .tabs{
       display: flex;
