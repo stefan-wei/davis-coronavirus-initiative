@@ -18,7 +18,17 @@
         <a href='index.html'><img src='dci.png' height='100px'/></a>
       </div>
 
-      <div class='tabs'>
+      <div id='dropdown' class='dropdownmenu'>
+        <li style="list-style: none;" class='dropdown'><span><a href='#'><i class="fa fa-bars" style="font-size:36px;color:black"></i></a></span>
+          <ul class='features-menu'>
+            <li><a href='about.html'>About</a></li>
+            <li><a href='resources.html'>Resources</a></li>
+            <li><a href='blog.html'>Blog</a></li>
+          </ul>
+        </li>
+      </div>
+
+      <div id='tabs' class='tabs'>
         <div class='tab_element' >
           <a href='index.html'>Home</a>
         </div>
@@ -32,12 +42,14 @@
           <a href='blog.html'>Blog</a>
         </div>
       </div>
+
     </div>
     <!--- HEADER SPACER -->
     <div class='headerspacer'></div>
 
     <div class='mission'>
-      <img src='coffe.jpg'/>
+      <img id='mobileabout' src='verticalcoffee.jpg'/>
+      <img id='desktopabout' src='coffe.jpg'/>
       <div class="text">
         <div class='title'><h1>Our Mission</h1></div> <br>
         <div class='disc'><p>We are a group of local DHS alumni and UCD students working to help flatten the curve, starting right here at home. On top of our delivery service,
@@ -47,7 +59,7 @@
 
     <div class='team'>
       <div class='meetus'>
-        <div class='meetus.title'>
+        <div class='meetus_title'>
           <h1>Meet the Team</h1>
         </div>
         <div class='meetus_descript'>
@@ -56,13 +68,14 @@
              to help spread information so that everyone can stay educated.</p>
         </div>
       </div>
-      <img src='team.jpg'/>
+      <img id='desktopabout'src='team.jpg'/>
     </div>
 
     <div class='us'>
       <div class='us_all'>
         <div class='us_me'>
-          <img src='yifan.jpg'/>
+          <img id='mobilepfp' src='circleyifan.jpg'/>
+          <img id='desktoppfp' src='yifan.jpg'/>
           <div class='me_title'>
             <h1>Stefan Wei</h1>
             <p>3rd Year Neurobiology, Physiology, and Behaviour</p>
@@ -75,7 +88,8 @@
         </div>
 
         <div class='us_me'>
-          <img src='jun.jpg'/>
+          <img id='mobilepfp' src='circlejun.jpg'/>
+          <img id='desktoppfp'src='jun.jpg'/>
           <div class='me_title'>
             <h1>Jun Kim</h1>
             <p>3rd Year Neuroscience</p>
@@ -88,7 +102,8 @@
         </div>
 
         <div class='us_me'>
-          <img src='hj.jpeg'/>
+          <img id='mobilepfp' src='hjicon.jpeg'/>
+          <img id='desktoppfp'src='hj.jpeg'/>
           <div class='me_title'>
             <h1>Hyo Joon Ahn</h1>
             <p>3rd Year Mathematics</p>
@@ -101,32 +116,44 @@
       </div>
     </div>
 
-    <!--- FOOTER SPACER -->
-      <div class='footer_spacer'></div>
 
   <!-- THIS IS THE FOOTER -->
   <div class='footer'>
-    <div class='credits'>
+
+    <div id='desktopcredits'class='credits'>
       <div class='desby'>This website was designed by:</div>
-      <a href='https://www.instagram.com/yongqi.design/'><div class='designer'>
-        <p>Yongqi Kuang</p>
-        <div class='ig'><i class="fa fa-instagram" style="font-size:24px; color:white"></i></div>
+        <a href='https://www.instagram.com/yongqi.design/'><div class='designer'>
+        <div class='yk'><p>Yongqi Kuang</p></div>
+        <div class='ig'><i class="fa fa-instagram" style="color:white"></i></div>
       </div></a>
     </div>
+
     <div class='contact'>
       <div class='footer_questions'>HAVE QUESTIONS?</div>
       <div class='questions_contact'><a href="mailto:daviscvinitiative@gmail.com">&#9993; daviscvinitiative@gmail.com</a></div>
       <div class='questions_contact'>&#9742; (530) 220-3722</div>
     </div>
+
     <div class='socials'>
-      <div class='footer_follow'>FOLLOW US</div>
-      <div class'follow_socials'>
-        <div class='box'>
-          <a href='https://www.instagram.com/daviscoronavirusinitiative/'><i class="fa fa-instagram" style="font-size:36px; color:white"></i></a>
-          <i class="fa fa-facebook-square" style="font-size:36px; color:white"></i>
+      <div class='footer_follow'>FOLLOW US:</div>
+      <div class='box'>
+        <div class='social_icon'>
+        <a href='https://www.instagram.com/daviscoronavirusinitiative/'><i class="fa fa-instagram" style="color:white"></i></a>
+        </div>
+        <div class='social_icon'>
+          <i class="fa fa-facebook-square" style="color:white"></i>
         </div>
       </div>
     </div>
+
+    <div id='mobilecredits'class='credits'>
+      <div class='desby'>This website was designed by:</div>
+        <a href='https://www.instagram.com/yongqi.design/'><div class='designer'>
+        <div class='yk'><p>Yongqi Kuang</p></div>
+        <div class='ig'><i class="fa fa-instagram" style="color:white"></i></div>
+      </div></a>
+    </div>
+
     <div class='legal'>
       <p>Davis Coronavirus Initiative</p>
       <p>Copyright @ 2020</p>

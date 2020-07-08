@@ -1,3 +1,6 @@
+@media only screen
+  and (min-device-width: 480px){
+
 *{
   margin: 0;
   padding: 0;
@@ -551,7 +554,6 @@ a:active {
 .meetus{
   display: flex;
   flex-direction: column;
-  width: 400px;
   margin-right: 40px;
   height: 300px;
   width: 500px;
@@ -586,14 +588,14 @@ a:active {
   height: 360px;
 }
 
-.me_title p{
-  font-weight: 600;
-}
-
 .me_title{
   margin-top: 20px;
   margin-bottom: 10px;
   width:300px;
+}
+
+.me_title p{
+  font-weight: 600;
 }
 
 .me_descript{
@@ -819,9 +821,13 @@ ol {
 #desktopicon{display:block;}
 #mobileicon{display:none;}
 
+#desktoppfp{display: block;}
+#mobilepfp{display: none;}
 
+#mobileabout{display:none;}
+#desktopabout{display:block;}
 
-
+}
 
 @media only screen
   and (min-device-width: 320px)
@@ -855,6 +861,13 @@ ol {
 
     #desktopicon{display:none;}
     #mobileicon{display:block;}
+
+    #desktoppfp{display: none;}
+    #mobilepfp{display: block;}
+
+    #mobileabout{display:block;}
+    #desktopabout{display:none;}
+
     .header{
       display: flex;
       flex-direction: row;
@@ -1293,6 +1306,124 @@ ol {
     .footer a:active {
       text-decoration: none;
       color: white;
+    }
+
+    .mission img{
+      width: 100%;
+      filter: brightness(30%);
+    }
+
+    .mission{
+            position: relative;
+            display: inline-block; /* Make the width of box same as image */
+    }
+
+    .mission .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            position: absolute;
+            font-family: 'Open Sans', sans-serif;
+            z-index: 950;
+            margin: 0 auto;
+            left: 0;
+            color: #FFFFFF;
+            right: 0;
+            top: 25%; /* Adjust this value to move the positioned div up and down */
+            text-align: center;
+            width: 60%; /* Set the width of the positioned div */
+            font-size: 2em;
+        }
+
+    .title h1{
+      font-family: "Arvo", sans-serif;
+    }
+
+    .team{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 130px;
+      padding-bottom: 100px;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #F7F7F7;
+    }
+
+    .team img{
+      width: 75%;
+      height: auto;
+      position: relative;
+    }
+
+    .meetus{
+      display: flex;
+      flex-direction: column;
+      margin-right: none;
+      width: 75%;
+      height: auto;
+      font-size: 120%;
+      position: relative;
+      font-size: 2em;
+      margin-bottom: 90px;
+      text-align: justify;
+    }
+
+    .meetus_title{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .us{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left:none;
+      padding-right:none;
+      padding-bottom: 20px;
+      width: 100%;
+    }
+
+    .us_all{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .us_me{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: none;
+      margin-bottom: 90px;
+      font-family: 'Open Sans', sans-serif;
+      width: 100%;
+    }
+
+    .us_me img{
+      width: 300px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .me_title{
+      margin-top: 50px;
+      margin-bottom: 10px;
+      width: 75%;
+      font-size: 2em;
+    }
+
+    .me_title p{
+      font-weight: 600;
+      font-size: 1em;
+    }
+
+    .me_descript{
+      width: 75%;
+      text-align: justify;
+      margin-bottom: 100px;
     }
 
 }
