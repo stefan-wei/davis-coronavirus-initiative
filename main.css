@@ -1386,7 +1386,7 @@ ol {
             left: 0;
             color: #FFFFFF;
             right: 0;
-            top: 20%; /* Adjust this value to move the positioned div up and down */
+            top: 15%; /* Adjust this value to move the positioned div up and down */
             text-align: center;
             width: 60%; /* Set the width of the positioned div */
             font-size: 2em;
