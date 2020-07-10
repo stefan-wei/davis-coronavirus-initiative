@@ -30,7 +30,8 @@ body{
 }
 
 .logo img{
-  height: 64px;
+  height: 84px;
+  margin-bottom: 5px;
 }
 .tabs{
   display: flex;
@@ -870,6 +871,8 @@ ol {
 #desktoplegal{display: flex;}
 #mobilelegal{display: none;}
 
+#mobilelogo{display:none;}
+#desktoplogo{display:block;}
 }
 
 @media only screen
@@ -913,6 +916,9 @@ ol {
 
     #desktoplegal{display: none;}
     #mobilelegal{display: flex;}
+
+    #mobilelogo{display:block;}
+    #desktoplogo{display:none;}
 
     .header{
       display: flex;
@@ -1006,7 +1012,8 @@ ol {
     }
 
     .logo img{
-      height: 96px;
+      height: 150px;
+      border: 1px solid red;
     }
     .tabs{
       display: flex;
