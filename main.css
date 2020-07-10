@@ -1066,7 +1066,6 @@ ol {
             align-items: center;
             position: absolute;
             font-family: 'Open Sans', sans-serif;
-            z-index: 950;
             margin: 0 auto;
             left: 0;
             color: #FFFFFF;
@@ -1377,7 +1376,6 @@ ol {
         align-items: center;
             position: absolute;
             font-family: 'Open Sans', sans-serif;
-            z-index: 950;
             margin: 0 auto;
             left: 0;
             color: #FFFFFF;
