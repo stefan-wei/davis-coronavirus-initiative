@@ -84,6 +84,8 @@ a:active {
         display: inline-block; /* Make the width of box same as image */
   }
 .home .text{
+  display: flex;
+  flex-direction: column;
         position: absolute;
         font-family: 'Open Sans', sans-serif;
         z-index: 950;
@@ -91,15 +93,21 @@ a:active {
         left: 0;
         color: #FFFFFF;
         right: 0;
-        top: 35%; /* Adjust this value to move the positioned div up and down */
+        top: 25%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
         width: 60%; /* Set the width of the positioned div */
-        font-size: 1.5vw;
+        font-size: 1.8em;
         width: 900px;
+        align-items: center;
     }
-
+.title{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
 .disc{
-  font-size: 1.5vw;
+  font-size: .8em;
+  width: 75%;
 }
 
 .buttons{
@@ -108,11 +116,14 @@ a:active {
   justify-content: center;
   align-items: center;
   height: 75px;
-  margin-top:10%;
+  margin-top:0%;
+  width: 75%;
 }
 
 .button1,
 .button2{
+  display: flex;
+  flex-direction: row;
   border: 1px white solid;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -187,41 +198,36 @@ a:active {
   border-bottom: 2px solid #184B9E;
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 50px;
 }
 
 .process{
   display: flex;
+  width: 100%;
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
-.process:first-of-type{
-}
 .process img{
-  height: 250px;
-  margin:100px;
+  height: 300px;
+  margin: 50px;
 }
 
 .process_description{
   display: flex;
   flex-direction: row;
-  /*border: 1px solid blue;*/
   align-items: center;
-  width: 25%;
-  margin-left: 30px;
+  width: 35%;
 }
 
 .number{
   display: flex;
   align-items: center;
-  /*border: 1px solid green;*/
-  font-size: 2vw;
+  font-size: 3.5em;
   color: #2F80ED;
   font-family: 'Open Sans', sans-serif;
   margin: 50px;
+  margin-top:0px;
 }
 
 .general_process{
@@ -234,6 +240,7 @@ a:active {
   font-size: 2vw;
   color: #2F80ED;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 .process_detail{
@@ -364,6 +371,11 @@ a:active {
   margin-bottom: 10px;
   height: 30px;
   padding: 10px;
+  width: 400px;
+}
+
+.arrows{
+  margin-left: 20px;
 }
 
 .infobox{
@@ -510,7 +522,7 @@ a:active {
 
 .mission img{
   width: 100%;
-  filter: brightness(30%);
+  filter: brightness(35%);
 }
 
 .mission{
@@ -518,6 +530,8 @@ a:active {
         display: inline-block; /* Make the width of box same as image */
   }
 .mission .text{
+  display: flex;
+  flex-direction: column;
         position: absolute;
         font-family: 'Open Sans', sans-serif;
         z-index: 950;
@@ -525,13 +539,23 @@ a:active {
         left: 0;
         color: #FFFFFF;
         right: 0;
-        top: 10%; /* Adjust this value to move the positioned div up and down */
+        top: 20%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
-        width: 60%; /* Set the width of the positioned div */
-        font-size: 2vw;
+        width: 100%; /* Set the width of the positioned div */
+        font-size: 1.8em;
+        width: 100%;
+        align-items: center;
     }
 .title h1{
   font-family: "Arvo", sans-serif;
+}
+
+.adisc{
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: .7em;
+  width: 75%;
 }
 
 .team{
@@ -557,10 +581,13 @@ a:active {
   margin-right: 40px;
   height: 300px;
   width: 500px;
-  font-size: 120%;
+  font-size: 1.1em;
   position: relative;
 }
 
+.meetus_title{
+  margin-bottom: 10px;
+}
 .us{
   display: flex;
   justify-content: center;
@@ -615,12 +642,16 @@ a:active {
   font-family: 'Arvo', sans-serif;
 }
 
+.blog_underline{
+  border-bottom: 2px solid black;
+}
+
 .blog_about{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -659,6 +690,7 @@ a:active {
   padding-bottom:0px;
   height: 80px;
   width: 300px;
+  font-size: 1em;
 }
 
 .blog_title h5{
@@ -674,6 +706,7 @@ a:active {
   padding: 5px;
   padding-top:0px;
   width: 300px;
+  font-size: .9em;
 }
 
 
@@ -753,6 +786,11 @@ a:active {
   text-align: justify;
 }
 
+.article_text img{
+  width: 800px;
+  border: 1px solid grey;
+}
+
 ol {
   list-style-position: inside;
 }
@@ -829,6 +867,9 @@ ol {
 #mobileabout{display:none;}
 #desktopabout{display:block;}
 
+#desktoplegal{display: flex;}
+#mobilelegal{display: none;}
+
 }
 
 @media only screen
@@ -869,6 +910,9 @@ ol {
 
     #mobileabout{display:block;}
     #desktopabout{display:none;}
+
+    #desktoplegal{display: none;}
+    #mobilelegal{display: flex;}
 
     .header{
       display: flex;
@@ -1027,7 +1071,7 @@ ol {
             left: 0;
             color: #FFFFFF;
             right: 0;
-            top: 30%; /* Adjust this value to move the positioned div up and down */
+            top: 25%; /* Adjust this value to move the positioned div up and down */
             text-align: center;
             width: 60%; /* Set the width of the positioned div */
             font-size: 1.5em;
@@ -1038,7 +1082,7 @@ ol {
       display: flex;
       justify-content: center;
       width: 650px;
-      font-size: 1.5em;
+      font-size: 2em;
     }
 
     .buttons{
@@ -1149,12 +1193,16 @@ ol {
       margin: 20px;
     }
 
+    .process_title{
+      font-weight: 600;
+    }
     .process_description{
       display: flex;
       flex-direction: row;
       /*border: 1px solid blue;*/
       align-items: center;
       width: 75%;
+      font-size: 1.2em;
     }
 
     .number{
@@ -1202,7 +1250,6 @@ ol {
       color: #FFFFFF;
       font-size: 2.8em;
       width: 100%;
-      height: 1000px;
     }
 
     .credits{
@@ -1256,7 +1303,7 @@ ol {
       flex-direction: column;
       align-items: center;
       width: 100%;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
 
     .footer_follow{
@@ -1287,6 +1334,11 @@ ol {
       align-items: center;
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
+    }
+
+    .mobilelegal{
+      font-weight: lighter;
+      font-size: .8em;
     }
 
     .footer a:link {
@@ -1330,7 +1382,7 @@ ol {
             left: 0;
             color: #FFFFFF;
             right: 0;
-            top: 25%; /* Adjust this value to move the positioned div up and down */
+            top: 20%; /* Adjust this value to move the positioned div up and down */
             text-align: center;
             width: 60%; /* Set the width of the positioned div */
             font-size: 2em;
@@ -1338,6 +1390,13 @@ ol {
 
     .title h1{
       font-family: "Arvo", sans-serif;
+      font-size: 2.8em;
+    }
+
+    .adisc{
+      display: flex;
+      text-align: center;
+      font-size: 1.5em;
     }
 
     .team{
@@ -1597,6 +1656,10 @@ ol {
       margin-bottom: 30px;
       font-family: 'Arvo', sans-serif;
       font-size: 2.5em;
+    }
+
+    .blog_underline{
+      border-bottom: 3px solid black;
     }
 
     .blog_about{
