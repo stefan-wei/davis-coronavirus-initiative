@@ -1013,7 +1013,6 @@ ol {
 
     .logo img{
       height: 150px;
-      border: 1px solid red;
     }
     .tabs{
       display: flex;
