@@ -1382,7 +1382,7 @@ ol {
             left: 0;
             color: #FFFFFF;
             right: 0;
-            top: 15%; /* Adjust this value to move the positioned div up and down */
+            top: 20%; /* Adjust this value to move the positioned div up and down */
             text-align: center;
             width: 60%; /* Set the width of the positioned div */
             font-size: 2em;
@@ -1882,6 +1882,10 @@ ol {
       margin-bottom:20px;
     }
 
+    .article_text img{
+      width: 100%;
+      border: 1px solid grey;
+    }
 
 
 }
