@@ -119,6 +119,8 @@ a:active {
   height: 75px;
   margin-top:0%;
   width: 75%;
+  border: 1px solid white;
+  font-size: .8em;
 }
 
 .button1,
@@ -126,10 +128,10 @@ a:active {
   display: flex;
   flex-direction: row;
   border: 1px white solid;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 15px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -543,7 +545,7 @@ a:active {
         top: 20%; /* Adjust this value to move the positioned div up and down */
         text-align: center;
         width: 100%; /* Set the width of the positioned div */
-        font-size: 1.8em;
+        font-size: 1.2em;
         width: 100%;
         align-items: center;
     }
@@ -554,9 +556,9 @@ a:active {
 .adisc{
   display: flex;
   justify-content: flex-start;
-  text-align: left;
-  font-size: .7em;
-  width: 75%;
+  text-align: center;
+  font-size: 1em;
+  width: 60%;
 }
 
 .team{
@@ -567,7 +569,7 @@ a:active {
   padding-top: 120px;
   padding-bottom: 120px;
   font-family: 'Open Sans', sans-serif;
-  background-color: #F7F7F7;
+  background-color: rgba(132, 194, 251, 0.1);
 }
 
 .team img{
@@ -612,8 +614,8 @@ a:active {
 }
 
 .us_me img{
-  width: 300px;
   height: 360px;
+  width: auto;
 }
 
 .me_title{
@@ -687,8 +689,7 @@ a:active {
   justify-content: flex-start;
   align-items: flex-start;
   background-color: white;
-  padding: 5px;
-  padding-bottom:0px;
+  padding: 12px;
   height: 80px;
   width: 300px;
   font-size: 1em;
@@ -704,8 +705,9 @@ a:active {
   align-items: flex-start;
   height:100px;
   background-color: white;
-  padding: 5px;
-  padding-top:0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
   width: 300px;
   font-size: .9em;
 }
@@ -1013,6 +1015,7 @@ ol {
 
     .logo img{
       height: 150px;
+
     }
     .tabs{
       display: flex;
