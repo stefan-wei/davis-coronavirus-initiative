@@ -613,14 +613,14 @@ a:active {
 }
 
 .us_me img{
-  height: 360px;
-  width: auto;
+  height: 300px;
+  width:225px;;
 }
 
 .me_title{
   margin-top: 20px;
   margin-bottom: 10px;
-  width:300px;
+  width:225px;
 }
 
 .me_title p{
@@ -628,7 +628,8 @@ a:active {
 }
 
 .me_descript{
-  width: 300px;
+  width: 225px;
+  font-size: .9em;
 }
 
 #blog-page {background-color:#EBF8FF;}
