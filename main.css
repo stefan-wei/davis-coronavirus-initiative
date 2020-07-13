@@ -105,6 +105,7 @@ a:active {
   display: flex;
   justify-content: center;
   width: 90%;
+  margin-bottom: -30px;
 }
 .disc{
   font-size: .8em;
