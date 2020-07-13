@@ -548,8 +548,9 @@ a:active {
         width: 100%;
         align-items: center;
     }
-.title h1{
+.mission .title h1{
   font-family: "Arvo", sans-serif;
+  border-bottom: 2px solid white;
 }
 
 .adisc{
@@ -640,7 +641,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 50px;
   margin-bottom: 30px;
   font-family: 'Arvo', sans-serif;
 }
