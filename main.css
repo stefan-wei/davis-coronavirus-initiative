@@ -212,7 +212,7 @@ a:active {
 }
 
 .process img{
-  width: 350px;
+  width: 20vw;
   margin: 50px;
 }
 
@@ -251,7 +251,7 @@ a:active {
   /*border: 1px solid purple;*/
   font-size: 1vw;
   font-family: 'Open Sans', sans-serif;
-  width: 400px;
+  width: 25vw;
 }
 .footer_spacer{
   height:75px;
