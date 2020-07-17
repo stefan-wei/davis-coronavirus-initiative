@@ -249,7 +249,7 @@ a:active {
 
 .process_detail{
   /*border: 1px solid purple;*/
-  font-size: 1vw;
+  font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
   width: 25vw;
 }
@@ -637,7 +637,7 @@ a:active {
   font-size: .9em;
 }
 
-#blog-page {background-color:#EBF8FF;}
+#blog-page {background-color:#F7F7F7;}
 #blog-page {align-items: center;}
 
 .blog_header{
@@ -721,7 +721,7 @@ a:active {
 
 
 
-#blog1 {background-color:#EBF8FF;}
+#blog1 {background-color:#F7F7F7;}
 #blog1 {align-items: center;}
 
 .article_title{
@@ -1215,7 +1215,7 @@ ol {
       /*border: 1px solid blue;*/
       align-items: center;
       width: 75%;
-      font-size: 1.2em;
+      font-size: 1.7em;
     }
 
     .number{
@@ -1656,7 +1656,7 @@ ol {
       font-size: 1em;
     }
 
-    #blog-page {background-color:#EBF8FF;}
+    #blog-page {background-color:#F7F7F7;}
     #blog-page {align-items: center;}
 
     .blog_header{
@@ -1737,7 +1737,7 @@ ol {
       font-size: 1.4em;
     }
 
-    #blog1 {background-color:#EBF8FF;}
+    #blog1 {background-color:#F7F7F7;}
     #blog1 {align-items: center;}
     #blog1 {display: flex;}
     #blog1{flex-direction: column;}
